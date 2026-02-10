@@ -122,12 +122,6 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-MIDDLEWARE = [
-    "django.middleware.security.SecurityMiddleware",
-    ...
-]
-
-
 
 JAZZMIN_SETTINGS = {
     # Site branding
